@@ -1,0 +1,99 @@
+.modal{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+opacity: 0;
+pointer-events: none;
+  transition: 0.5s;
+
+}
+
+.modal.active{
+  opacity: 1;
+pointer-events: all ;
+}
+
+.modal__content{
+  padding: 20px;
+  border-radius: 12px;
+  background-color: white;
+  width: 50vw; 
+  transform: scale(0.5);
+  transition: 0.4s all;
+  color: red;
+
+}
+
+.modal__content.active{
+  transform: scale(1);
+}
+.forms > input,
+textarea {
+  padding: 20px;
+  width: 600px;
+  border-radius: 3px;
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  /* border: none; */
+      background: transparent;
+  font-size: 16px;
+  color: rgb(0, 0, 32);
+  outline: none;
+  color: black;
+}
+
+.forms > button {
+  padding: 20px;
+  border: none;
+  height: 50px;
+  width: 550px;
+
+  display: inline-block;
+    position: relative;
+    margin: 10px;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    font: bold 18px/25px Arial, sans-serif;
+     color: #fff;
+ 
+    text-shadow: 1px 1px 1px rgba(255,255,255, .22);
+ 
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+ 
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    -moz-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+ 
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    -ms-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+    background: rgb(255, 69, 79);
+}
+
+.forms > button:hover {
+ border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388; 
+}
+.forms > label {
+  padding-bottom: 10px;
+  color: rgb(0, 0, 32);
+  font-weight: bold;
+    color: black;
+     font-size: 20px;
+
+}

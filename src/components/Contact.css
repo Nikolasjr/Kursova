@@ -1,0 +1,131 @@
+.contact {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+    width: 100%;
+  background: url("bv.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact .leftSide {
+  height: 100%;
+  flex: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact .rightSide {
+  height: 100%;
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact .rightSide h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 10;
+  font-size: 50px;
+  margin-left: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  padding: 30px;
+}
+
+form input {
+  height: 40px;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #121619;
+  color: black;
+    background: transparent;
+}
+
+form textarea {
+  margin-top: 15px;
+  height: 70px;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #121619;
+  color: white;
+}
+input::placeholder,
+textarea::placeholder {
+  font-weight: bold;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+form input:focus,
+textarea:focus {
+  outline: none;
+    background: transparent;
+}
+
+form label {
+  margin-top: 15px;
+  color: grey;
+}
+
+form button {
+  padding: 20px;
+  border: none;
+  height: 70px;
+  width: 450px;
+
+  display: inline-block;
+    position: relative;
+    margin: 10px;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    font: bold 18px/25px Arial, sans-serif;
+     color: #fff;
+ 
+    text-shadow: 1px 1px 1px rgba(255,255,255, .22);
+ 
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+ 
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    -moz-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+ 
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    -ms-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+    background: rgb(255, 69, 79);
+}
+
+form button:hover {
+ border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388; 
+}
+form h1 {
+   font-size: 40px;
+  line-height: 60px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  color: white;
+    font-weight: bold;
+    font-style: oblique;
+}
+.contact .rightSide h1{
+   text-align: center;
+   color: #FFFFFF;
+}

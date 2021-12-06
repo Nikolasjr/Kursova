@@ -1,0 +1,42 @@
+.logos {
+  width: 40%;
+  position: top;
+
+}
+.logos img {
+  width: 220px;
+}
+.fprices {
+  width: 100%;
+  background: url("bv.jpg");
+ 
+  background-attachment: fixed;
+    background-repeat: no-repeat;
+  background-size: cover;
+} 
+.fprice__text {
+  margin-top: 15px;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 600;
+} 
+.fprice__heading {
+  margin-top: 20px;
+  font-size: 25px;
+    color: #FFFFFF;
+}
+.fprice_rs {
+  font-size: 35px;
+  margin-top: 15px;
+  color: lightgrey;
+
+}
+.fprices h1 {
+  text-align: center;
+  margin: 5% ;
+   color: #FFFFFF;
+   font-style: oblique;
+}
+h1{
+  font-style: oblique;
+}
